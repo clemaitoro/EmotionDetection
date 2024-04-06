@@ -3,7 +3,7 @@ import numpy as np
 from keras.models import load_model
 
 # Load your trained emotion recognition model
-emotion_model = load_model("/home/user/persistent/final_stretch/model.h5")
+emotion_model = load_model("model.h5")
 
 def preprocess_face(face_image):
     # Resize, convert to 3 channels if grayscale, normalize and expand dimensions
